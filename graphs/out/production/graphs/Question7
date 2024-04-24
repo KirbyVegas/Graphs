@@ -1,0 +1,14 @@
+time and space complexity
+
+
+4.
+The time complexity of DirectedOrUndirected is O(n^2), with n being the number of rows and columns in the input matrix, because we have to
+go through every one and check for symmetry.
+
+The space complexity is O(1) because we are just comparing values and returning a boolean so we don't need to allocate any extra space.
+
+5.
+The time complexity of EveryPath seems to grow exponentially because, the way I implemented it, it is looking at every vertex in relation to every other vertex,
+using a brute force method to find all the combinations.
+The space complexity is O(n) where n is the number of vertices in the graph because we have to allocate two new arrays to hold the nodes
+we have visited and added to the list.
